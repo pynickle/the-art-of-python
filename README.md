@@ -79,6 +79,7 @@ For we are not teaching python, code below:
 ```python
 import requests
 from bs4 import BeautifulSoup
+import time
 
 
 response = requests.get(url, timeout=20)   #get it
@@ -96,15 +97,42 @@ for img in img_list:   #get one
     except Exception:
         continue   #next image
 ```
-If you calm down and read it. You will find the code is really readable for humans! It’s really easy! Only 15 lines!
+Even you haven’t study’s python, if you be calm and read it. You will find the code is really human-readable! It’s really easy! Only 15 lines!
+
+## expert-python3
+
+Python is created by Guido Van Rossum in 1991. It has a long history. During the long time, it never gives up developing python greater, and it makes today’s popular python. It has many things other languages do not support.
+
+Now we are going to expert python more deeply. See how great it is!
+
+First, let us start with decorator. Suppose that you are discovering which is more efficient, join() or +. If you do not use decorator:
 ```python
-
+import time
+def time_c(func):
+	start = time.time()   #time now
+	func   #run function
+	print(f"Time used: {time.time()-start}")   #print result
+def sleep1(a, b):
+	print(a, b)   #have parameters
+	time.sleep(2)   #little sleep 
+time_c(sleep1(1,2))
 ```
-
+It has a poor readability. So decorator appeared in the world of python:
 ```python
-
+def time_c(func):   #decorator begin
+    def wrapper(*args, **kwargs):   #inner code
+        start = time.time()   #time now
+        func(*args, **kwargs)   #run function
+        elapsed = (time.time() - start)   #end time
+        print("{} : Time used: {}".format(func.__name__, elapsed))   #print result
+    return wrapper
+@time_c
+def sleep2(a, b):
+	print(a, b)
+	time.sleep(2)
+sleep2(1,2)
 ```
-
+We use @ to use a decorator. It improves the code quality. That’s what python brings us.
 ```python
 
 ```
@@ -189,5 +217,5 @@ If you calm down and read it. You will find the code is really readable for huma
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjMxMDQ2MDBdfQ==
+eyJoaXN0b3J5IjpbNDAzNzQxMzQyXX0=
 -->
