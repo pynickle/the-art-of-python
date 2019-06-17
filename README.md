@@ -79,7 +79,7 @@ For we are not teaching python, code below:
 ```python
 import requests
 from bs4 import BeautifulSoup
-import time
+import time   #a standard library for timing
 
 
 response = requests.get(url, timeout=20)   #get it
@@ -87,17 +87,17 @@ soup = BeautifulSoup(response.text, "lxml")   #analysis it
 img_list = soup.find_all("img")   #find images
 
 for img in img_list:   #get one
-	img_url = img["src"]   #images src
+	img_url = img["src"]   #get images src
     try:   
 		img_get = requests.get(img_url, timeout=20)   #get image
 	else:
-		name = int(time.time())   #time now
-		with open(path + "\\" + str(name) + choice.get(), "wb") as f:   #open file
-			f.write(img_get.content)   #write image
+		name = int(time.time())   #record time now for file name
+		with open(path + "\\" + str(name) + choice.get(), "wb") as f:   #open file in binary form
+			f.write(img_get.content)   #write image info
     except Exception:
-        continue   #next image
+        continue   #error occured and jump to next image
 ```
-Even you haven’t study’s python, if you be calm and read it. You will find the code is really human-readable! It’s really easy! Only 15 lines!
+Even though you haven’t studied python, if you be calm and read it. You will find the code is really human-readable! It’s really easy! Only 15 lines!
 
 ## expert-python3
 
@@ -107,26 +107,26 @@ Now we are going to expert python more deeply. See how great it is!
 
 First, let us start with decorator. Suppose that you are discovering which is more efficient, join() or +. If you do not use decorator:
 ```python
-import time
+import time   #time module
 def time_c(func):
 	start = time.time()   #time now
 	func   #run function
 	print(f"Time used: {time.time()-start}")   #print result
 def sleep1(a, b):
-	print(a, b)   #have parameters
+	print(a, b)   #function that has parameters
 	time.sleep(2)   #little sleep 
 time_c(sleep1(1,2))
 ```
 It has a poor readability. So decorator appeared in the world of python:
 ```python
 def time_c(func):   #decorator begin
-    def wrapper(*args, **kwargs):   #inner code
-        start = time.time()   #time now
-        func(*args, **kwargs)   #run function
-        elapsed = (time.time() - start)   #end time
+    def wrapper(*args, **kwargs):   #inner code there
+        start = time.time()   #record time now
+        func(*args, **kwargs)   #run function with parameters
+        elapsed = (time.time() - start)   #record end time
         print("{} : Time used: {}".format(func.__name__, elapsed))   #print result
-    return wrapper
-@time_c
+    return wrapper   #return inner function
+@time_c   #use the decorator with @
 def sleep2(a, b):
 	print(a, b)
 	time.sleep(2)
@@ -217,5 +217,5 @@ We use @ to use a decorator. It improves the code quality. That’s what python 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzNzQxMzQyXX0=
+eyJoaXN0b3J5IjpbMTA1NjYwMjg5MV19
 -->
