@@ -5,7 +5,7 @@ Python, being a well-designed high-level programming language, provides us with 
 
 Why not study it? l will try to make you feel the charm of python from the bottom of your heart.
 
-## simple
+## Get Started
 
 First, let us start with the classic example - HelloWorld. In python, Hello World is like this:
 
@@ -62,14 +62,41 @@ print(" ".join(a))
 ```
 The line numbers is very different. As we all see, python is more simple than java. That’s why it has “built-in batteries”.
 
+## Explore More
+
+Suppose that once you received a request from one of your friends, he told you he was a photography beginner and needed some great photos to learn. 
+
+But he found visiting the website every time is too complicated and asked you if you can download all the images from the websites automatically.
+
+In python, this is easy by its rich third party libraries. 
+
+1. First, download what we need from the command line:
 ```python
-
+pip install requests   #For request the website
+pip install bs4   #For get the img
 ```
-
+For we are not teaching python, code below:
 ```python
+import requests
+from bs4 import BeautifulSoup
 
+
+response = requests.get(url, timeout=20)   #get it
+soup = BeautifulSoup(response.text, "lxml")   #analysis it
+img_list = soup.find_all("img")   #find images
+
+for img in img_list:   #get one
+	img_url = img["src"]   #images src
+    try:   
+		img_get = requests.get(img_url, timeout=20)   #get image
+	else:
+		name = int(time.time())   #time now
+		with open(path + "\\" + str(name) + choice.get(), "wb") as f:   #open file
+			f.write(img_get.content)   #write image
+    except Exception:
+        continue   #next image
 ```
-
+If you calm down and read it. You will find the code is really readable for humans! It’s really easy! Only 15 lines!
 ```python
 
 ```
@@ -162,5 +189,5 @@ The line numbers is very different. As we all see, python is more simple than ja
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzYzNDAzNF19
+eyJoaXN0b3J5IjpbLTE4NjMxMDQ2MDBdfQ==
 -->
