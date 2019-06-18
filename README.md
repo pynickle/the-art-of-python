@@ -84,7 +84,7 @@ But he found visiting the website every time is too complicated and asked you if
 In python, this is easy by its rich third party libraries. 
 
 1. First, download what we need from the command line:
-```bash
+```bashpython
 pip install requests   #For request the website
 pip install bs4   #For get the img
 ```
@@ -112,7 +112,7 @@ for img in img_list:   #get one
 ```
 Even though you haven’t studied python, if you be calm and read it. You will find the code is really human-readable! It’s really easy! Only 15 lines!
 
-## Expert Python3
+## Eexpert P-python3
 
 Python is created by Guido Van Rossum in 1991. It has a long history. During the long time, it never gives up developing python greater, and it makes today’s popular python. It has many things other languages do not support.
 
@@ -193,9 +193,93 @@ If you want to see more information about python packages. See awesome-python on
 
 And l hope my own project can help with the further python study(study_program, interesting_program and what_the_f*ck folder):
 
-[amazing-python](https://github.com/pynickle/amazing-python)
+[amazing-python](https://github.com/pynickle/amazing-
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python)
 
 wtfpython is a good project, too. Hope you can learn something interesting from it:
 
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
-- [wtfpython-cn](https://github.com/leisurelicht/wtfpython-cn)
+- [wtfpython-cn](https://github.com/leisurelicht/wtf```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python-cn)
+
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzcwOTczODgzXX0=
+-->
