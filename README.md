@@ -107,7 +107,7 @@ for img in img_list:   #get one
 	else:
 		name = int(time.time())   #record time now for file name
 		with open(path + "\\" + str(name) + choice.get(), "wb") as f:   #open file in binary form
-			f.write(img_get.content)   #write image info
+			f.write(img_get.content)   #write image info to file
     except Exception:
         continue   #error occured and jump to next image
 ```
@@ -152,11 +152,15 @@ Python also supplies us with a beautiful way to print. We do not need to use inc
 
 Format method is provided. Like below code:
 ```python
-
+name = "nick"
+print("my name is {}".format(name))   #use {}
+print("my name is {0}".format(name))   #use {0}
+print("my name is {name}".format(name=name))   #use{name}
 ```
 A more gentle way is to use f for simple format:
 ```python
-
+name = "nick"
+print(f"my name is {name}")
 ```
 That is really human-readable.Python has improved much during these years.
 ```python
