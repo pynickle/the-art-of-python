@@ -185,3 +185,17 @@ So many! l don't know which to choose! Then l will list some uses of python. Enj
 - GUI game
 - GUI programming
 - data visualization
+
+If you want to see more information about python packages. See awesome-python on GitHub:
+
+- [awesome-python](https://github.com/vinta/awesome-python) : English
+- [awesome-python-cn](https://github.com/jobbole/awesome-python-cn) : Chinese
+
+And l hope my own project can help with the further python study(study_program, interesting_program and what_the_f*ck folder):
+
+[amazing-python](https://github.com/pynickle/amazing-python)
+
+wtfpython is a good project, too. Hope you can learn something interesting from it:
+
+- [wtfpython](https://github.com/satwikkansal/wtfpython)
+- [wtfpython-cn](https://github.com/leisurelicht/wtfpython-cn)
