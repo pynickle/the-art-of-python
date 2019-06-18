@@ -193,93 +193,12 @@ If you want to see more information about python packages. See awesome-python on
 
 And l hope my own project can help with the further python study(study_program, interesting_program and what_the_f*ck folder):
 
-[amazing-python](https://github.com/pynickle/amazing-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python)
+[amazing-python](https://github.com/pynickle/amazing-python)
 
 wtfpython is a good project, too. Hope you can learn something interesting from it:
 
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
-- [wtfpython-cn](https://github.com/leisurelicht/wtf```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python-cn)
-
-```
+- [wtfpython-cn](https://github.com/leisurelicht/wtfpython-cn)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwOTczODgzXX0=
+eyJoaXN0b3J5IjpbLTIwNDUwMjg5ODldfQ==
 -->
