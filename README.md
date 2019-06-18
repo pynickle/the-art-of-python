@@ -62,6 +62,20 @@ print(" ".join(a))
 ```
 The line numbers is very different. As we all see, python is more simple than java. That’s why it has “built-in batteries”.
 
+## Python Package
+Python also welcomes us to provide more useful packages on pypi. There are many great packages for us to use.
+
+Here are some of them:
+
+- requests : get any website
+- django : make your own website
+- keras : for deep learning
+- numpy : scientific calculation
+
+And more is waiting for your explore.
+
+Go to pypi.org to find more!
+
 ## Explore More
 
 Suppose that once you received a request from one of your friends, he told you he was a photography beginner and needed some great photos to learn. 
