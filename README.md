@@ -73,8 +73,7 @@ Here are some of them:
 - numpy : scientific calculation
 
 And more is waiting for your explore.
-
-Go to pypi.org to find more!
+Go to [pypi.org](https://pypi.org) to find more!
 
 ## Explore More
 
@@ -85,7 +84,7 @@ But he found visiting the website every time is too complicated and asked you if
 In python, this is easy by its rich third party libraries. 
 
 1. First, download what we need from the command line:
-```python
+```bash
 pip install requests   #For request the website
 pip install bs4   #For get the img
 ```
@@ -113,7 +112,7 @@ for img in img_list:   #get one
 ```
 Even though you haven’t studied python, if you be calm and read it. You will find the code is really human-readable! It’s really easy! Only 15 lines!
 
-## expert-python3
+## Expert Python3
 
 Python is created by Guido Van Rossum in 1991. It has a long history. During the long time, it never gives up developing python greater, and it makes today’s popular python. It has many things other languages do not support.
 
@@ -163,78 +162,26 @@ name = "nick"
 print(f"my name is {name}")
 ```
 That is really human-readable.Python has improved much during these years.
-```python
 
-```
+## Use Python
 
-```python
+Python, with its various third party libraries on pypi. It can help us do many things. 
 
-```
+For example, there are many web framework on pypi. With these powerful technology, we can make great website. There is some:
 
-```python
+- django : much bigger
+- flask : more flexible
+- tornado : an asynchronous library
+- falcon : a fast network library
+- pyramid : proper weight
 
-```
+So many! l don't know which to choose! Then l will list some uses of python. Enjoy!
 
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
-
-```python
-
-```
+- scientific calculation
+- web development
+- web spider
+- data analysis
+- artificial intelligence
+- GUI game
+- GUI programming
+- data visualization
