@@ -112,7 +112,7 @@ for img in img_list:   #get one
 ```
 Even though you haven’t studied python, if you be calm and read it. You will find the code is really human-readable! It’s really easy! Only 15 lines!
 
-## Eexpert Python
+## Expert Python
 
 Python is created by Guido Van Rossum in 1991. It has a long history. During the long time, it never gives up developing python greater, and it makes today’s popular python. It has many things other languages do not support.
 
@@ -200,5 +200,5 @@ wtfpython is a good project, too. Hope you can learn something interesting from 
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
 - [wtfpython-cn](https://github.com/leisurelicht/wtfpython-cn)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY3NzA1N119
+eyJoaXN0b3J5IjpbMjAxODA1OTI1OF19
 -->
