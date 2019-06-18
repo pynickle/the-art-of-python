@@ -146,7 +146,19 @@ def sleep2(a, b):
 	time.sleep(2)
 sleep2(1,2)
 ```
-We use @ to use a decorator. It improves the code quality. That’s what python brings us.
+We use @ to use a decorator. It improves the code quality. That’s what python brings us. Just a little part.
+
+Python also supplies us with a beautiful way to print. We do not need to use incomprehensible %.
+
+Format method is provided. Like below code:
+```python
+
+```
+A more gentle way is to use f for simple format:
+```python
+
+```
+That is really human-readable.Python has improved much during these years.
 ```python
 
 ```
@@ -222,14 +234,3 @@ We use @ to use a decorator. It improves the code quality. That’s what python 
 ```python
 
 ```
-
-```python
-
-```
-
-```python
-
-```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjYwMjg5MV19
--->
