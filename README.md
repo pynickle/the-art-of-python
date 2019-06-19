@@ -170,7 +170,7 @@ print("my name is {name}".format(name=name))   #use{name}
 A more gentle way is to use f for simple format:
 ```python
 name = "nick"
-print(f"my name is {name}")
+print(f"my name is {name}")   #just put variable inside {}
 ```
 That is really human-readable.Python has improved much during these years.
 
@@ -230,5 +230,5 @@ wtfpython is a good project, too. Hope you can learn something interesting from 
 - [wtfpython](https://github.com/satwikkansal/wtfpython) : English
 - [wtfpython-cn](https://github.com/leisurelicht/wtfpython-can) : Chinese
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Mjc4ODkzXX0=
+eyJoaXN0b3J5IjpbNzE3NTczNjMxXX0=
 -->
