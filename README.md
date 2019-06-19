@@ -163,6 +163,25 @@ print(f"my name is {name}")
 ```
 That is really human-readable.Python has improved much during these years.
 
+## Python algorithms
+
+Algorithms implemented in python can be comprehensible. For python is a language has a simple appearance, we 
+can focus on the implementation of the algorithm instead of other unnecessary things.
+
+The python project “Python” gives us a huge collection of python algorithms. It is not easy to study all of them. Here is the href: [Python](https://github.com/TheAlgorithms/Python)
+
+## Huge project
+
+Some people may say:” Python is not a suitable programming language for huge project.” 
+
+But it something like django has proved that the saying is actually False! [Django](https://www.djangoproject.com/start/overview), as a big web framework. Its website has a list for websites using Django. Here is some of them:
+
+- Instagram 
+- Mozilla 
+- Open Stack
+
+Amazing! Who said that python can’t managed big project!
+
 ## Use Python
 
 Python, with its various third party libraries on pypi. It can help us do many things. 
@@ -200,5 +219,5 @@ wtfpython is a good project, too. Hope you can learn something interesting from 
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
 - [wtfpython-cn](https://github.com/leisurelicht/wtfpython-cn)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODA1OTI1OF19
+eyJoaXN0b3J5IjpbMTA5MjI3NzY1MF19
 -->
