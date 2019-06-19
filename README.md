@@ -5,6 +5,17 @@ Python, being a well-designed high-level programming language, provides us with 
 
 Why not study it? l will try to make you feel the charm of python from the bottom of your heart.
 
+## Why Python
+
+First, let configure a reason for why to learn python. Here are some reasons:
+
+- Rich documentation for us to study
+- Rich libraries and functions
+- Simple and easy to learn
+- Various uses to let you get interested in it
+
+If you you now decide to learn python. Continue reading below.
+
 ## Get Started
 
 First, let us start with the classic example - HelloWorld. In python, Hello World is like this:
@@ -219,5 +230,5 @@ wtfpython is a good project, too. Hope you can learn something interesting from 
 - [wtfpython](https://github.com/satwikkansal/wtfpython) : English
 - [wtfpython-cn](https://github.com/leisurelicht/wtfpython-can) : Chinese
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTc0NzY0N119
+eyJoaXN0b3J5IjpbLTY0Mjc4ODkzXX0=
 -->
