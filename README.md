@@ -174,7 +174,7 @@ The python project “Python” gives us a huge collection of python algorithms.
 
 Some people may say:” Python is not a suitable programming language for huge project.” 
 
-But it something like django has proved that the saying is actually False! [Django](https://www.djangoproject.com/start/overview), as a big web framework. Its website has a list for websites using Django. Here is some of them:
+But some projects like django has proved that the saying is actually False! [Django](https://www.djangoproject.com/start/overview), as a big web framework. Its website has a list for websites using Django. Here is some of them:
 
 - Instagram 
 - Mozilla 
@@ -216,8 +216,8 @@ And l hope my own project can help with the further python study(study_program, 
 
 wtfpython is a good project, too. Hope you can learn something interesting from it:
 
-- [wtfpython](https://github.com/satwikkansal/wtfpython)
-- [wtfpython-cn](https://github.com/leisurelicht/wtfpython-cn)
+- [wtfpython](https://github.com/satwikkansal/wtfpython) : English
+- [wtfpython-cn](https://github.com/leisurelicht/wtfpython-can) : Chinese
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjI3NzY1MF19
+eyJoaXN0b3J5IjpbLTc2NTc0NzY0N119
 -->
