@@ -1,7 +1,7 @@
 # the-art-of-python
 Feel the charm of Python! Let us love python together!
 
-Python, being a well-designed high-level programming language, provides us with many features for the programmer's comfort. It also be known for “built-in batteries” because of its various and rich standard libraries and built-in functions. 
+Python, being a well-designed high-level programming language, provides us with many features for the programmer's comfort. It also be known for "built-in batteries" because of its various and rich standard libraries and built-in functions. 
 
 Why not study it? l will try to make you feel the charm of python from the bottom of your heart.
 
@@ -24,7 +24,7 @@ First, let us start with the classic example - HelloWorld. In python, Hello Worl
 print("Hello,World!")
 ```
 One line. And in Java:
-```Java
+```java
 public class HelloWorld {
     public static void main(String []args) {
        System.out.println("Hello,World!");
@@ -32,7 +32,7 @@ public class HelloWorld {
 }
 ```
 5 lines. In C programming language:
-```C
+```c
 #include <stdio.h>
 int main(){
    printf("Hello,World!\n");  
@@ -43,8 +43,8 @@ int main(){
 
 The question asks you to use a string character for string concat.
 
-Such as, an array like this: “Hello”, “World”. The join method should return “Hello World”. In Java, we don’t have a method Java has written for us:
-```Java
+Such as, an array like this: "Hello", "World". The join method should return "Hello World". In Java, we don’t have a method Java has written for us:
+```java
 import java.util.ArrayList;
 import java.util.List;
 public class Join {
@@ -71,7 +71,23 @@ But in python. Python team has writen the method join for us:
 a = ["Hello", "World"]
 print(" ".join(a))
 ```
-The line numbers is very different. As we all see, python is more simple than java. That’s why it has “built-in batteries”.
+The line numbers is very different. As we all see, python is more simple than java. That’s why it has "built-in batteries".
+
+See another example. Sometimes you can get the list index and value at one time, Here is a simple implementation:
+```python
+counter = 0   #var the index
+lst = ["a", "b", "c"]   #var a simple list
+for i in lst:   #get every value in the list
+	print(counter, i)   #print the index and value
+	counter += 1   #add the index
+```
+Python is not satisfied with this kind of implementation. We want a more beautiful implementation. So python created builtin function - enumerate:
+```python
+lst = ["a", "b", "c"]   #var a simple list
+for index, value in enumerate(lst):   #get every index and value in the list
+	print(index, value)   #print index and value
+```
+Great!
 
 ## Python Package
 Python also welcomes us to provide more useful packages on pypi. There are many great packages for us to use.
@@ -230,5 +246,5 @@ wtfpython is a good project, too. Hope you can learn something interesting from 
 - [wtfpython](https://github.com/satwikkansal/wtfpython) : English
 - [wtfpython-cn](https://github.com/leisurelicht/wtfpython-can) : Chinese
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NTczNjMxXX0=
+eyJoaXN0b3J5IjpbLTkxOTMwMDc0NV19
 -->
